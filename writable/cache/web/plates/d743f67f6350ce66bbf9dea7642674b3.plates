@@ -1,0 +1,11 @@
+a:3:{s:4:"time";i:1657479047;s:3:"ttl";i:3600;s:4:"data";s:316:"<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="<?php echo asset('tailwind.css'); ?>"></script>
+    
+</head>
+";}

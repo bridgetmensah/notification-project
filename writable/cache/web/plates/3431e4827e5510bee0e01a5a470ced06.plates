@@ -1,0 +1,12 @@
+a:3:{s:4:"time";i:1657618459;s:3:"ttl";i:3600;s:4:"data";s:230:"<?php echo $this->partial('partials.head'); ?>
+
+<body>
+
+	<?php echo $this->section('components.navbar'); ?>
+
+	<?php echo $this->section($content); ?>
+
+	<?php echo $this->section('components.footer'); ?>
+
+</body>
+</html>";}

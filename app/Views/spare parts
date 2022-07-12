@@ -1,0 +1,52 @@
+
+	  <ul class="flex items-center space-x-6">
+		<li class="font-semibold text-gray-700"><a href="{{url('admin.index.list')}}">Blog</a></li>
+		<li class="font-semibold text-gray-700"><a href="{{url('admin.index.articles')}}">Articles</a></li>
+        <li class="font-semibold text-gray-700"><a href="{{url('system.system.body')}}">Contacts</a></li>
+
+
+		<label
+                for="password"
+                class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600"
+                >Password:</label
+              >
+              <div class="relative">
+                <div
+                  class="
+                    inline-flex
+                    items-center
+                    justify-center
+                    absolute
+                    left-0
+                    top-0
+                    h-full
+                    w-10
+                    text-gray-400
+                  "
+                >
+                  <span>
+                    <i class="fas fa-lock text-blue-500"></i>
+                  </span>
+                </div>
+
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  class="
+                    text-sm
+                    placeholder-gray-500
+                    pl-10
+                    pr-4
+                    rounded-2xl
+                    border border-gray-400
+                    w-full
+                    py-2
+                    focus:outline-none focus:border-blue-400
+                  "
+                  placeholder="Enter your password"
+                />
+              </div>
+
+		<!-- @section('-components.navbar1') -->
+			<!-- @section('-components.footer1') -->

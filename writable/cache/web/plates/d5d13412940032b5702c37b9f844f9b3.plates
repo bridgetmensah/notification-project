@@ -1,0 +1,15 @@
+a:3:{s:4:"time";i:1657618469;s:3:"ttl";i:3600;s:4:"data";s:153:"<?php echo $this->partial('partials.head'); ?>
+
+<body>
+
+	
+
+	<?php echo $this->section($content); ?>
+
+
+</div>
+</div>
+</div>
+
+</body>
+</html>";}

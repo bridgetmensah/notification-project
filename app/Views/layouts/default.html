@@ -1,0 +1,20 @@
+@partial('partials.head')
+
+<body>
+    <div class="flex bg-white">
+	
+        @section('components.sidebar')
+    
+        <main class="min-h-screen w-full bg-white border-l">
+    
+            @section('components.topbar')
+        
+            @section($content)
+        
+            @section('components.footer-one')
+        </main>
+    
+    </div>
+</body>
+
+</html>
