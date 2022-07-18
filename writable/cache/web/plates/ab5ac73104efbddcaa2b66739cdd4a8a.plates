@@ -1,5 +1,5 @@
-a:3:{s:4:"time";i:1657619044;s:3:"ttl";i:3600;s:4:"data";s:11140:"<!-- component -->
-<div class="bg-white p-8 rounded-md w-full">
+a:3:{s:4:"time";i:1658159799;s:3:"ttl";i:3600;s:4:"data";s:11277:"<!-- component -->
+<div class="antialiased bg-gradient-to-br from-green-100 to-white p-8 rounded-md w-full">
 	<div class=" flex items-center justify-between pb-6">
 		<div>
 			<h1 class="text-gray-600 font-semibold">Messages History</h1>
@@ -16,8 +16,8 @@ a:3:{s:4:"time";i:1657619044;s:3:"ttl";i:3600;s:4:"data";s:11140:"<!-- component
 				<input class="bg-gray-50 outline-none ml-1 block " type="text" name="" id="" placeholder="search...">
           </div>
 				<div class="lg:ml-40 ml-10 space-x-8">
-                    <button class="bg-indigo-600 px-4 py-2 rounded-md text-white font-semibold tracking-wide cursor-pointer">New Report</button>
-					<button class="bg-indigo-600 px-4 py-2 rounded-md text-white font-semibold tracking-wide cursor-pointer">Create</button>
+                    <button class="bg-green-600 rounded-lg text-green-100 hover:bg-green-600 tracking-wide cursor-pointer py-2 px-4 rounded-l">New Report</button>
+					<button class="bg-green-600 rounded-lg text-green-100 hover:bg-green-600 tracking-wide cursor-pointer py-2 px-4 rounded-r">Create</button>
                     
 				</div>
 			</div>
@@ -59,9 +59,9 @@ a:3:{s:4:"time";i:1657619044;s:3:"ttl";i:3600;s:4:"data";s:11140:"<!-- component
 								<td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
 									<div class="flex items-center">
 										<div class="flex-shrink-0 w-10 h-10">
-											<img class="w-full h-full rounded-full"
+											<!-- <img class="w-full h-full rounded-full"
                                                 src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80"
-                                                alt="" />
+                                                alt="" /> -->
                                         </div>
 											<div class="ml-3">
 												<p class="text-gray-900 whitespace-no-wrap">
@@ -104,9 +104,9 @@ a:3:{s:4:"time";i:1657619044;s:3:"ttl";i:3600;s:4:"data";s:11140:"<!-- component
 								<td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
 									<div class="flex items-center">
 										<div class="flex-shrink-0 w-10 h-10">
-											<img class="w-full h-full rounded-full"
+											<!-- <img class="w-full h-full rounded-full"
                                                 src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80"
-                                                alt="" />
+                                                alt="" /> -->
                                         </div>
 											<div class="ml-3">
 												<p class="text-gray-900 whitespace-no-wrap">
@@ -146,9 +146,9 @@ a:3:{s:4:"time";i:1657619044;s:3:"ttl";i:3600;s:4:"data";s:11140:"<!-- component
 								<td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
 									<div class="flex items-center">
 										<div class="flex-shrink-0 w-10 h-10">
-											<img class="w-full h-full rounded-full"
+											<!-- <img class="w-full h-full rounded-full"
                                                 src="https://images.unsplash.com/photo-1540845511934-7721dd7adec3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80"
-                                                alt="" />
+                                                alt="" /> -->
                                         </div>
 											<div class="ml-3">
 												<p class="text-gray-900 whitespace-no-wrap">
@@ -188,9 +188,9 @@ a:3:{s:4:"time";i:1657619044;s:3:"ttl";i:3600;s:4:"data";s:11140:"<!-- component
 								<td class="px-5 py-5 bg-white text-sm">
 									<div class="flex items-center">
 										<div class="flex-shrink-0 w-10 h-10">
-											<img class="w-full h-full rounded-full"
+											<!-- <img class="w-full h-full rounded-full"
                                                 src="https://images.unsplash.com/photo-1522609925277-66fea332c575?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&h=160&w=160&q=80"
-                                                alt="" />
+                                                alt="" /> -->
                                         </div>
 											<div class="ml-3">
 												<p class="text-gray-900 whitespace-no-wrap">
@@ -231,12 +231,12 @@ a:3:{s:4:"time";i:1657619044;s:3:"ttl";i:3600;s:4:"data";s:11140:"<!-- component
                         </span>
 						<div class="inline-flex mt-2 xs:mt-0">
 							<button
-                                class="text-sm text-indigo-50 transition duration-150 hover:bg-indigo-500 bg-indigo-600 font-semibold py-2 px-4 rounded-l">
+                                class="text-sm text-indigo-50 transition duration-150 bg-green-600 rounded-lg text-green-100 hover:bg-green-600 py-2 px-4 rounded-l">
                                 Prev
                             </button>
 							&nbsp; &nbsp;
 							<button
-                                class="text-sm text-indigo-50 transition duration-150 hover:bg-indigo-500 bg-indigo-600 font-semibold py-2 px-4 rounded-r">
+                                class="text-sm text-indigo-50 transition duration-150 bg-green-600 rounded-lg text-green-100 hover:bg-green-600 py-2 px-4 rounded-r">
                                 Next
                             </button>
 						</div>

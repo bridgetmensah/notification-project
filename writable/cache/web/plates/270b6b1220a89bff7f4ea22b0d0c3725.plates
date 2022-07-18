@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1657618572;s:3:"ttl";i:3600;s:4:"data";s:859:"<nav class="flex items-center justify-between px-10 bg-white py-6 border-b">
+a:3:{s:4:"time";i:1658159773;s:3:"ttl";i:3600;s:4:"data";s:859:"<nav class="flex items-center justify-between px-10 bg-white py-6 border-b">
     <div class="flex items-center bg-gray-100 px-4 py-2 rounded-md space-x-3 w-96">
         <input type="text" placeholder="search" class="bg-gray-100 outline-none w-full" />
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 cursor-pointer text-gray-500" fill="none"

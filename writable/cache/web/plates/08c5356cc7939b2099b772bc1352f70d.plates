@@ -1,47 +1,82 @@
-a:3:{s:4:"time";i:1657618590;s:3:"ttl";i:3600;s:4:"data";s:2963:"<!-- component -->
-<div class="w-full bg-white h-screen">
+a:3:{s:4:"time";i:1658159797;s:3:"ttl";i:3600;s:4:"data";s:5317:"<!-- component -->
+<div class="w-full antialiased bg-gradient-to-br from-green-100 to-white h-screen">
     <div class="bg-white-300 from-blue-800 to-blue-600 h-96"></div>
     <div class="max-w-5xl mx-auto px-6 sm:px-6 lg:px-8 mb-12">
         <div class="bg-white w-full shadow rounded p-8 sm:p-12 -mt-72">
             <p class="text-3xl font-bold leading-7 text-center text-dark">SMS</p>
             <form action="" method="post">
                 <div class="md:flex items-center mt-12">
+
                     <div class="w-full md:w-1/2 flex flex-col">
-                        <label class="font-semibold leading-none text-black">Name</label>
-                        <input type="text" class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-300 rounded" />
+                        <label class="font-semibold leading-none text-black">Recipient</label>
+                        <!-- <label for="cars">Choose a car:</label> -->
+                        <select name="cars" id="cars" class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-300 rounded">
+                          <option value="volvo">All Contacts</option>
+                          <option value="saab">Dave</option>
+                          <option value="saab">Vida</option>
+                          <option value="saab">Emmanuel</option>
+                          <option value="opel">Nii</option>
+                          <option value="audi">Abdul</option>
+                          <option value="audi">Andrew</option>
+                          <option value="audi">Dolph</option>
+                          <option value="audi">Dede</option>
+                          <option value="audi">Annette</option>
+                          <option value="audi">Theophilus</option>
+                          <option value="audi">Henry</option>
+                          <option value="audi">Aboki</option>
+                          <option value="audi">Eva</option>
+                          <option value="audi">Simon</option>
+                          <option value="audi">Lawrence</option>
+                          <option value="audi">Stephen</option>
+                          <option value="audi">Michael</option>
+                          <option value="audi">Magaret</option>
+                          <option value="audi">Garvin</option>
+                        </select>
+                        <!-- <input type="text" class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-300 rounded" /> -->
                     </div>
                     <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
-                        <label class="font-semibold leading-none text-black">Phone</label>
-                        <input type="tel" class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-300 rounded"/>
+                        <label class="font-semibold leading-none text-black">Sender</label>
+                        <!-- <label for="cars">Choose a car:</label> -->
+                        <select name="sender" id="sender" class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-300 rounded">
+                          <option value="volvo">Akon</option>
+                          <option value="saab">Mavis</option>
+                          <option value="saab">Nyarkomah</option>
+                          <option value="saab">Bridget</option>
+                          <option value="opel">Kobbina</option>
+                          <option value="audi">Jennifer</option>
+                        </select>
                     </div>
                 </div>
+
                 <div class="md:flex items-center mt-8">
                     <div class="w-full flex flex-col">
                         <label class="font-semibold leading-none text-black">Subject</label>
-                        <input type="text" class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-300 rounded"/>
+                        <input type="text" class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-300 rounded" required/>
                     </div>
-                    
                 </div>
+
                 <div>
                     <div class="w-full flex flex-col mt-8">
                         <label class="font-semibold leading-none text-black">Message</label>
-                        <textarea type="text" class="h-40 text-base leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-300 border-0 rounded"></textarea>
+                        <textarea type="text" class="h-40 text-base leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-300 border-0 rounded" required>type your message here...</textarea>
                     </div>
                 </div>
                 <div class="flex items-center justify-center w-full">
                     
                     </button>&nbsp;&nbsp;
                     
-                    <button class="mt-9 font-semibold leading-none text-white py-4 px-10 bg-blue-700 rounded hover:bg-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
+                    <button class="mt-9 font-semibold leading-none text-white py-4 px-10 bg-green-600 rounded-lg text-green-100 hover:bg-green-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
                         Send message
                     </button>
+                    
                     &nbsp;&nbsp;
                     
-                    <button class="mt-9 font-semibold leading-none text-white py-4 px-10 bg-blue-700 rounded hover:bg-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
+                    <button class="mt-9 font-semibold leading-none text-white py-4 px-10 bg-green-600 rounded-lg text-green-100 hover:bg-green-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
                         <a href="<?php echo url('system.system.message'); ?>">Cancel</a>
                     </button>
                     
-                    
+                    <!-- <img src="/assets/images/p1.png" alt="qq"> -->
+                <!-- <img src="<?php echo img('images/p1.png'); ?>" alt="qq"> -->
                 </div>
             </form>
         </div>

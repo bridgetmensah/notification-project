@@ -1,5 +1,5 @@
-a:3:{s:4:"time";i:1657619155;s:3:"ttl";i:3600;s:4:"data";s:9272:"<!-- component -->
-<div class="bg-white p-8 rounded-md w-full">
+a:3:{s:4:"time";i:1658159781;s:3:"ttl";i:3600;s:4:"data";s:9356:"<!-- component -->
+<div class="antialiased bg-gradient-to-br from-green-100 to-white p-8 rounded-md w-full">
 	<div class=" flex items-center justify-between pb-6">
 		<div>
 			<h1 class="text-gray-600 font-semibold text-lg">Contacts List</h1>
@@ -16,7 +16,7 @@ a:3:{s:4:"time";i:1657619155;s:3:"ttl";i:3600;s:4:"data";s:9272:"<!-- component 
 				<input class="bg-gray-50 outline-none ml-1 block " type="text" name="" id="" placeholder="search...">
           </div>
 				<div class="lg:ml-40 ml-10 space-x-8">
-                    <button class="bg-indigo-600 px-4 py-2 rounded-md text-white font-semibold tracking-wide cursor-pointer"><a href="<?php echo url('system.system.addContact'); ?>">Add New Contact</a></button>
+                    <button class="bg-green-600 rounded-lg text-green-100 hover:bg-green-600 px-4 py-2 rounded-md tracking-wide cursor-pointer"><a href="<?php echo url('system.system.addContact'); ?>">Add New Contact</a></button>
 					
                     
 				</div>
@@ -195,12 +195,12 @@ a:3:{s:4:"time";i:1657619155;s:3:"ttl";i:3600;s:4:"data";s:9272:"<!-- component 
                         </span>
 						<div class="inline-flex mt-2 xs:mt-0">
 							<button
-                                class="text-sm text-indigo-50 transition duration-150 hover:bg-indigo-500 bg-indigo-600 font-semibold py-2 px-4 rounded-l">
+                                class="text-sm text-indigo-50 transition duration-150 bg-green-600 rounded-lg text-green-100 hover:bg-green-600 py-2 px-4 rounded-l">
                                 Prev
                             </button>
 							&nbsp; &nbsp;
 							<button
-                                class="text-sm text-indigo-50 transition duration-150 hover:bg-indigo-500 bg-indigo-600 font-semibold py-2 px-4 rounded-r">
+                                class="text-sm text-indigo-50 transition duration-150 bg-green-600 rounded-lg text-green-100 hover:bg-green-600 py-2 px-4 rounded-r">
                                 Next
                             </button>
 						</div>
